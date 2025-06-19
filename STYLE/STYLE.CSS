@@ -1,0 +1,327 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+
+
+body{
+	background-image: url("imgs/Diseño\ de\ la\ pagina/fondo6.PNG");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+FF7DAA
+FFC0D9
+FF9CC3
+FF8FBB 
+
+
+
+
+
+border-image{
+	border:solid transparent;
+	border-image: url("imgs/Diseño\ de\ la\ pagina/borde1(1).PNG");
+}
+	
+
+
+
+.simple-linear {
+  background: linear-gradient(#e0dadd, #FF8FBB);
+}
+
+.redes {
+font-size: 1.5vw
+}
+
+.title {
+	background-image: url("imgs/Diseño\ de\ la\ pagina/fondo8-crop.PNG");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 0.7vw;
+	font-size: 1.5vw;
+	padding-left: auto;
+	padding-right:auto;
+}
+
+h1{
+	display: center;
+	text-align: center;
+	padding-left: 100px;
+	padding-right: 100px;
+	margin-left: 0px; 
+	margin-right: 0px;
+	color: #FF71A2;
+}
+
+
+
+h2{
+	display: inline-block;
+	text-align: center;
+	padding-left: auto;
+	padding-right:auto;
+	border-color: #fa669a;
+	color: #FF71A2;
+	-webkit-text-stroke-width: 0.5px;
+	-webkit-text-stroke-color: #FF367C;
+	font-family: brush script MT;
+	font-weight: 300;
+	font-size: 2.5vw;
+	font-style: bold;
+	background-image: url("imgs/Diseño\ de\ la\ pagina/fondo8-crop.PNG");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+div{
+	display: center;
+}
+
+
+.imagenestitulo {
+	text-align: center;
+	font-weight: 900;
+	font-size: 2vw;
+	font-style: bold;
+	padding: 2vw;
+}
+
+.imagenesp{
+	width: 80vw;
+	max-width: 1000000px;
+	min-width: 320px;
+	margin: auto;
+	text-align: center;
+
+
+}
+
+.imagenesp img {
+  width: 16%;
+  height: 13vw;
+}
+
+button {
+margin-left: auto;
+margin-right: auto;
+border: none;
+}
+.Button prueba{
+	font-style: bold;
+	border-color: #FF71A2;
+	font-weight: 200;
+	font-size: 30px;
+ 	background-repeat: no-repeat;
+	background-size: cover;
+	margin-left: auto;
+	margin-right: auto;
+	height: 57px;
+	font-family: brush script MT;
+	
+}
+
+
+.menu {
+	display: flex;
+	
+}
+
+.menu h2 {
+	cursor: pointer;
+	width: 100%;
+}
+
+
+.contenedor1 {
+	display: flex;
+	align-items: center;
+	cursor: pointer
+}
+
+.contenedor1 img {
+  width: 20vw;
+  height: 4vw;
+  background-color: mistyrose;
+  border-color: mistyrose;
+  margin-top: 0.01vw;
+  margin-bottom: 0.01vw;
+  padding: none;
+  border-color:#dcdcdc;
+
+ }
+
+.contenedor1 button{
+	border-color: mistyrose;
+	border:10vw;
+}
+
+.content {
+	margin-top: 2.1vw;
+	text-align: center;
+	font-size: 1vw;
+}
+
+
+
+[data-content] {
+	display: none;
+}
+
+.active[data-content] {
+	display: block;
+}
+
+#principal {
+text-align: center;
+
+height: 0px;
+}
+
+
+
+
+
+.button1{
+	font-size: 2vw;
+}
+
+/* lightbox sin abrir */
+.lightbox {
+	display: none;
+  }
+  
+  /* lightbox abierto */
+  .lightbox:target {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+  
+  /* Contenido de Lightbox */
+  .lightbox figcaption {
+	width: 45dvw;
+	position: relative;
+	padding: -0.3vw;
+	background-color: lightpink;
+	font-family: brush script MT;
+	font-style: bold;
+	font-size: 3vw;
+	margin-top: 4.7vw;
+	display: flex;
+	justify-content: space-around;
+	border: 1dvw;
+	border-color: none;
+  }
+
+  .lightbox .talla {
+	width: 45dvw;
+	position: relative;
+	font-family: brush script MT;
+	background-color: lightpink;
+	font-size: 2vw;	
+	display: flex;	
+	justify-content: space-around;	
+	color:#FF367C;
+	margin-bottom: -0.5vw;
+  }
+  
+  /* Botón Cerrar */
+  .lightbox .close {
+	position: relative;
+	display: block;
+  }
+  
+  .lightbox .close::after {
+	right: -0.7vw;
+	top: 3.8vw;
+	width: 2.5vw;
+	height: 2.5vw;
+	position: absolute;
+	display: flex;
+	z-index: 1;
+	align-items: center;
+	justify-content: center;
+	background-color: black;
+	border-radius: 50%;
+	color: white;
+	content: "×";
+	cursor: pointer;
+  }
+  
+  /* superposición Lightbox */
+  .lightbox .close::before {
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background-color: rgba(0,0,0,.7);
+	content: "";
+	cursor: default;
+  }
+
+.lightbox .foto {
+	width: 45dvw;
+	height: 45dvw;
+	position: relative;
+	background-color: lightpink;
+	font-size: 4vw;
+	font-style: bold;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-items: center;
+	padding-bottom: 2.5vw;
+}
+
+.lightbox .foto img{
+	width: 25vw;
+	height: 27vw;
+}
+
+
+.lightbox .foto button img{
+	width: 20dvw;
+	height: 3dvw;
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+	border-width: 0.3vw;
+	border-bottom: 4vw;
+	background-color: lightpink;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.lightbox .foto button{
+border-color: lightpink
+}
+
+
+
+.imagenessolas {
+	width: 80vw;
+	max-width: 1000000px;
+	min-width: 320px;
+	margin: auto;
+	text-align: center;
+}
+.imagenessolas img {
+  width: 16%;
+  height: 13vw;
+}
+
+
+.foot {
+	font-size: 1.5vw;
+	padding: 1vw;
+}
