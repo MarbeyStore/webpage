@@ -324,5 +324,11 @@ border-color: lightpink
 
 .foot {
 	font-size: 1.5vw;
-	padding: 1vw;
+	text-align: center;
+	margin: auto;
+	padding-top: 3vw;
+	padding-bottom: 1.5vw;
+	text-shadow: 0.05vw 0.05vw 0.1vw #000000, 0.15vw 0.15vw 0.1vw #fc6197;
+	color: rgba(241, 0, 113, 0.829);
+	font-family:  brush script MT;
 }
