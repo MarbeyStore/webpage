@@ -10,7 +10,7 @@
 body{
 	background-image: url("imgs/Diseño\ de\ la\ pagina/fondo6.PNG");
 	background-repeat: no-repeat;
-        background-size:100% 100%;
+        background-size:100vw 100vh;
 	background-size: cover;
 }
 FF7DAA
