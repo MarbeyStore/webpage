@@ -42,6 +42,7 @@ font-size: 1.5vw
 width: 4.7vw;
 height: 3.2vw;
 border-radius: 1.2vw;
+cursor: pointer;
 }
 
 .title {
