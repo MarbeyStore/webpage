@@ -324,8 +324,7 @@ border-color: lightpink
 
 
 .foot {
-	position: sticky;
-        bottom: 0;
+
 	font-size: 1.5vw;
 	text-align: center;
 	margin: auto;
