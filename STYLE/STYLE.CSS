@@ -38,6 +38,11 @@ border-image{
 .redes {
 font-size: 1.5vw
 }
+.redes img{
+width: 4.7vw;
+height: 3.2vw;
+border-radius: 1.2vw;
+}
 
 .title {
 	background-image: url("imgs/Diseño\ de\ la\ pagina/fondo8-crop.PNG");
@@ -353,6 +358,10 @@ border-color: lightpink
 		padding-left: 3vw;
         padding-top: 2vw;
         font-size: 2.5vw;
+	}
+	.redes img{
+	width: 5vw;
+	height: 4vw;
 	}
 	.imagenestitulo{
         font-size: 4.5vw;
